@@ -2,5 +2,5 @@ all: go
 
 go:
 	docker build -t go .
-	docker run -d --name goapp gop
+	docker run -d --name goapp go
 
